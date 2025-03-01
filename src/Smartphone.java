@@ -18,6 +18,12 @@ this.memory=memory;
     public void setMemory(double memory) {
         this.memory = memory;
     }
+
+    @Override
+    public String toString() {
+        
+        return super.toString()+ ". Codice IMEI:"+IMEI+", memoria della tv:"+memory+"GB";
+    }
     
 
 }

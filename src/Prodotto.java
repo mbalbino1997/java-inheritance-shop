@@ -42,4 +42,9 @@ public void setIva(int iva) {
     this.iva = iva;
 }
 
+@Override
+public String toString() {
+return "codice prodotto:"+code+", nome prodotto:"+name+", brand:"+brand+", prezzo:"+price+", iva:"+iva+"%";
+}
+
 }
