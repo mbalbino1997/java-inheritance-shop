@@ -1,6 +1,6 @@
 public class Televisori extends Prodotto{
-    double size;
-    boolean isSmart;
+    private double size;
+    private boolean isSmart;
     public Televisori(int code, String name, String brand, double price, int iva, double size, boolean isSmart) {
         super(code, name, brand, price, iva);
         this.size=size;
